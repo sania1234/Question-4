@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='complain_recording_application'

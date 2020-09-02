@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    android:background="@drawable/background"
+    >
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="234dp"
+        android:layout_height="155dp"
+        android:src="@drawable/logo_complai_system"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Email"
+        android:paddingBottom="20dp"
+        android:textColor="#F2FFFFFF"
+        android:textColorHint="#F2FFFFFF"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="187dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Password"
+        android:textColor="#F2FFFFFF"
+        android:textColorHint="#F2FFFFFF"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="269dp" />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="130dp"
+        android:layout_height="56dp"
+        android:shadowColor="#673AB7"
+        android:text="Login"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="502dp"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
